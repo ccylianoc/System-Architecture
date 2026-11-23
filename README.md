@@ -1,1 +1,23 @@
-m
+# System Architecture
+
+Deze repo is gemaakt voor opdrachten en notes van System Architecture HR 26/27 TI Jaar 2
+
+In /lessen zijn aantekeningen te vinden voor dit vak, deze zijn onderverdeeld in algemeen en 2 bestanden voor de (sub)vakken
+
+In /opgave zul je alle opgave vinden
+
+En /voorbeeld dit bevat de informatie gekregen vanuit school
+
+## Gebruik git.bat bestanden
+
+Om via vsc terminal te pushen:
+
+```cmd
+cmd /c .\git-push.bat
+```
+
+Om via vsc terminal te pullen:
+
+```cmd
+cmd /c .\git-pull.bat
+```
