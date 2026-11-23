@@ -8,9 +8,8 @@ In /opdrachten zul je alle opgave vinden van school en voorbeeld code
 
 In /Snippets kan je je eigen code per opgave in zetten zodat iedereen zijn code kan vergelijken
 
-En /
 
-##Commit messages
+## Commit messages
 
 Doc: "Vertel wat je hebt veranderd/toegevoegd qua documentatie"
 Code: "Vertel wat je hebt toegevoegd aan de code"
