@@ -12,10 +12,14 @@ In /Snippets kan je je eigen code per opgave in zetten zodat iedereen zijn code 
 ## Commit messages
 
 Doc: "Vertel wat je hebt veranderd/toegevoegd qua documentatie"
+
 Code: "Vertel wat je hebt toegevoegd aan de code"
+
 Fix: "Vertel wat je hebt gefixt qua Code of Spellingsfout bijvoorbeeld"
+
 Refactor: "Vertel wat je hebt veranderd qua indeling of naam aanpassing"
-Misc: "Vertel wat je hebt gedaan als dit niet onder een van de bovenstaande valt
+
+Misc: "Vertel wat je hebt gedaan als dit niet onder een van de bovenstaande valt"
 
 ## Goated learning resources
 Tokyo Hacker Girls (yuri vtubers): [tokyo hacker girls](https://www.youtube.com/@TokyoHackerGirls)
