@@ -42,11 +42,11 @@ Leerdoel bij deze les:
 
 notatie: /x
 
-	/24 -> de eerste 24 bits staan vast (vanaf links)
+/24 -> de eerste 24 bits staan vast (vanaf links)
 
-	dus 32 - 24 = 8 bits
+dus 32 - 24 = 8 bits
 
-	8 bits (0 - 255) = 256 mogelijkheden voor de ***host***
+8 bits (0 - 255) = 256 mogelijkheden voor de ***host***
 
 **Waarom?**
 
