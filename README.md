@@ -4,9 +4,11 @@ Deze repo is gemaakt voor opdrachten en notes van System Architecture HR 26/27 T
 
 In /lessen zijn aantekeningen te vinden voor dit vak, deze zijn onderverdeeld in algemeen en 2 bestanden voor de (sub)vakken
 
-In /opgave zul je alle opgave vinden
+In /opdrachten zul je alle opgave vinden van school en voorbeeld code
 
-En /voorbeeld dit bevat de informatie gekregen vanuit school
+In /Snippets kan je je eigen code per opgave in zetten zodat iedereen zijn code kan vergelijken
+
+En /
 
 ##Commit messages
 
