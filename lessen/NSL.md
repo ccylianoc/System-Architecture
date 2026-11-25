@@ -148,7 +148,6 @@ Je cookie en sessie slaan data op zoals je Username, data dat je cookie is aange
 
 SQL injectie is zonder de behulpzame foutmeldingen, dus veel trial en error.
 
-
 #### Stored / Reflected XSS
 
 **Reflected**
