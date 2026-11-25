@@ -85,7 +85,7 @@ Dit is ook de basis van Android (andere soort OS).
 
 #### Wat doet de kernel?
 
-| col1                                 | col2                                                                                                           |
+| Taak                                 | Uitleg                                                                                                         |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | **Bestuurt de processor(en)**       | Houdt bij welke processen draaien en hoeveel processortijd de krijgen (prioriteit)                             |
 | **Geheugenbeheer**                  | Bepaalt welke delen dan het geheugen worden gebruikt voor het opslaan van programma's en data                  |

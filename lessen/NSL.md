@@ -85,11 +85,11 @@ Service:
 
 Apparaat 1 vraagt verbinding aan een port op apparaat 2 ( SYN ).
 
-Apparaat 2 zegt dat hij iets met sturen ( SYN/ACK ).
+Apparaat 2 zegt ja en vraagt zelf ook verbinding ( SYN/ACK ).
 
-Apparaat 1 stuurt iets (ACK).
+Apparaat 1 bevestigt, nu staat de verbinding ( ACK ).
 
-Apparaat 1 wilt toch niets sturen ( RST ).
+**Nmap SYN scan:** apparaat 1 stuurt na de SYN/ACK een RST in plaats van ACK. De verbinding wordt dus nooit afgemaakt, maar je weet wel dat de port open is.
 
 #### ARP
 
@@ -116,7 +116,7 @@ Stappen (DORA![1795427284140](image/NSL/1795427284140.webp)):
 
 - Configuratie op een router
 - Port forward zorgt ervoor dat jij een port op een prive apparaat open zet naar de buitenwereld
-- Denk bij port forwarding aan minecraft (19132 of 25655)
+- Denk bij port forwarding aan minecraft (19132 Bedrock of 25565 Java)
 
 #### HTTP Methods
 
@@ -132,7 +132,7 @@ Het blijft in je browser history, kan gebookmarked worden, gecached worden. Het 
 
 Wat kan een POST:
 
-Het kan gebookmarked worden. Geen ristricite aan lengte, data wordt niet gecached en deze request blijft niet in je browser geschiedenis.
+Het kan niet gebookmarked worden. Geen restrictie aan lengte, data wordt niet gecached en deze request blijft niet in je browser geschiedenis.
 
 #### Cookies en sessie
 
