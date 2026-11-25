@@ -118,6 +118,10 @@ Veel servers zijn virtual machines, denk aan de servers die wij vorig jaar hebbe
  **Nadeel:**  iets minder performance
 
 
+## **Besturingssystemen les 2:**
+
+
+## Changelog
 
 | Versie | Datum    | Change                                      |
 | ------ | -------- | ------------------------------------------- |
