@@ -117,9 +117,170 @@ Veel servers zijn virtual machines, denk aan de servers die wij vorig jaar hebbe
 
  **Nadeel:**  iets minder performance
 
+### Herhaling C++
+
+**Klasse**
+
+```C++
+class MyClass {
+	public:
+		int field = 0;
+		void method() {
+		...
+	}
+	MyClass() { // constructor
+		...
+	}
+	private:
+		float privateField = 0.0;
+};
+```
+
+**Objects instantieren**
+
+```C++
+MyClass object1; // statisch
+MyClass *object2 = new MyClass; // dynamisch
+...
+delete object2;
+```
+
+**Afgeleide klasse**
+
+```C++
+class aClass {
+...
+};
+class MyClass : public aClass {
+...
+};
+```
+
+**Abstracte klasse**
+
+```C++
+class aClass {
+	virtual void myFunc() = 0;
+};
+class MyClass : public aClass {
+	void MyFunc() {
+		...
+	}
+};
+```
+
+- Zorgt ervoor dat je meerdere klasses kan hebben met dezelfde basis.
+
+**Pointers**
+
+```C++
+int a = 3;			// Reserveer geheugen en sla getal 3 op
+int *pa = &a;		// Pointer naar de geheugenplek
+*pa = 5;			// Verander de waarde ==> a is nu 5
+pa = &b;			/* Verander de pointers endpoint nu verwijst
+					   nu naar b en niet a */
+```
+
+**Pointers en strings**
+
+![1795601941727](image/BES/1795601941727.png)
+
+```C++
+char *s = "hallo";		// pointer s verwijst naar de geheugenplek van de string
+
+std::cout << s + 1;		// print allo
+std::cout << s[2];		// print "l" dus maar 1 deel van de character array
+std::cout << *(s + 4)	// print "o"
+```
+
+**Arrays en pointers**
+
+```C++
+int i[] = {2, 4, 6};		// Verwijs naar eerste geheugenplaats van array
+
+std::cout << i[1];			// Print 4
+std::cout *(i + 2);			// Print 6
+
+const int LEN = 10;			// Reserveert 10 geheugenplaatsen
+char s[LEN];				// Verwijst naar eerst geheugenplaats
+
+strncpy(s, "hallo", LEN);	// Kopieert tekst naar de character array
+```
+
+**C-Style string**
+
+```C++
+char a[] = "c-style string";	// Null-terminated character array
+
+String b("string object");		// Arduino String class
+b.lenght();						// Handige method
+if (b == "a string") {			// == operator overloaded
+  ...
+}
+b += " concatenation";			// += operator overloaded
+```
+
+**References**
+
+```C++
+#include <iostream>
+
+void func(int &x) {						// Stelt je instaat om variable in functie
+  x += 2;								// aan te passen
+}
+
+int main() {							// Voorkomt kopieren van grote objecten
+  int a = 3;							// bespaart geheugen
+  std::cout << "a = " << a << std::endl;
+  func(a);
+  std::cout << "a = " << a << std::endl;
+  return 0;
+}
+```
+
+**Structs**
+
+```C++
+struct Naw {
+	char naam[10];
+	char straat[10];
+	int huisNo;
+};
+Naw persoon;
+strncpy(persoon.naam, "Jan", 10);
+persoon.huisNo = 5;
+```
+
+Een struct is net als klasse gewoon te gebruiken als standaard variabelen. Je kan ze net als een klasse instantieren:
+
+```C++
+Naw persoon2 = persoon;
+```
+
+**Strucst en pointers**
+
+- Gebruik pointers naar structs:
+
+```C++
+Naw *pPersoon = &persoon;
+```
+
+- persoon en *pPersoon verwijzen nu naar hetzelde stuk geheugen
+
+```C++
+pPersoon->huisNo = 10;
+std::out << persoon.huisNo;
+```
+
+- Gebruik een pointer of reference om structs als argumenten of return values van functies te gebruiken
+  - Minder kopieerwerk
+  - mogelijkheid om inhoud van struct in de funtie te veranderen
+
+### Blokdiagram
+
+De blok diagram van de les is irrelevant voor de notes, kijk naar de opdracht [ArduinOS](https://github.com/ccylianoc/System-Architecture/tree/main/Opdrachten/Opdrachten/ArduinOS) in de readme is dit blokdiagram uitgewerkt.
 
 ## **Besturingssystemen les 2:**
-
 
 ## Changelog
 
