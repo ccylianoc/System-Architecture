@@ -1,12 +1,14 @@
 # System Architecture
 
-Deze repo is gemaakt voor opdrachten en notes van System Architecture HR 26/27 TI Jaar 2
+Deze repo is gemaakt voor opdrachten en notes van System Architecture HR 26/27 TI Jaar 2.
 
-In /lessen zijn aantekeningen te vinden voor dit vak, deze zijn onderverdeeld in algemeen en 2 bestanden voor de (sub)vakken
+In /lessen zijn aantekeningen te vinden voor dit vak, deze zijn onderverdeeld in algemeen en 2 bestanden voor de (sub)vakken.
 
-In /opdrachten zul je alle opgave vinden van school en voorbeeld code
+In /opdrachten zul je alle opgave vinden van school en voorbeeld code.
 
-In /Snippets kan je je eigen code per opgave in zetten zodat iedereen zijn code kan vergelijken
+Hier kan je ook een bestand vinden die in detail uitlegt wat we moeten doen voor ArduinOS in de README van [ArduinOS](https://github.com/ccylianoc/System-Architecture/tree/main/Opdrachten/Opdrachten/ArduinOS).
+
+In /Snippets kan je je eigen code per opgave in zetten zodat iedereen zijn code kan vergelijken.
 
 ## Commit messages
 
@@ -38,10 +40,9 @@ Om via vsc terminal te pullen:
 cmd /c .\git-pull.bat
 ```
 
-
 ## Changelog
 
 | Versie | Datum    | Change                                      |
 | ------ | -------- | ------------------------------------------- |
 | 1.0    | 23/11/26 | + README.md<br />+ Goated learning resource |
-| 1.1    | 25/11/26 | + changelog                                 |
+| 1.1    | 25/11/26 | + changelog<br />+ Link naar ArduiOS        |
