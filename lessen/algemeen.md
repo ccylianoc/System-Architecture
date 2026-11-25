@@ -42,4 +42,9 @@ Toetsing:
 | ArduinOS        | 1 grote opdracht                                                   | 0.5    |
 | ANS kennistoets | stof van NSL, BES en ROS                                           | 0,25   |
 
+## Changelog
 
+| Versie | Datum    | Change        |
+| ------ | -------- | ------------- |
+| 1.0    | 23/11/26 | + algemeen.md |
+| 1.1    | 25/11/26 | + changelog   |

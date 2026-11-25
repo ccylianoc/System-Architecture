@@ -163,3 +163,10 @@ SQL injectie is zonder de behulpzame foutmeldingen, dus veel trial en error.
 - Andere gebruikers kunnen er last van hebben
 
 ## NSL les 2:
+
+## Changelog
+
+| Versie | Datum    | Change                           |
+| ------ | -------- | -------------------------------- |
+| 1.0    | 23/11/26 | + NSL.md aangemaakt<br />+ Les 1 |
+| 1.1    | 25/11/26 | changelog aangemaakt             |

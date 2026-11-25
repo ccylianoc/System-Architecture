@@ -85,8 +85,8 @@ Dit is ook de basis van Android (andere soort OS).
 
 #### Wat doet de kernel?
 
-| Taak                                 | Uitleg                                                                                                         |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| col1                                      | col2                                                                                                           |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Bestuurt de processor(en)**       | Houdt bij welke processen draaien en hoeveel processortijd de krijgen (prioriteit)                             |
 | **Geheugenbeheer**                  | Bepaalt welke delen dan het geheugen worden gebruikt voor het opslaan van programma's en data                  |
 | **Beheer van I/O-apparaten**        | (toetsenbord, muis, USB-apparaten, netwerkkaart enz.): Bepaalt welk programma toegang kruigt tot welk apparaat |
@@ -107,7 +107,7 @@ In praktijk gaan we uit van ***Debian*.**
 
 Wat is een virtual machine? "Een programma dat een complete computer simuleert". Je kunt hier net als een computer een OS op installeren, bijv. windows, linux.
 
-Veel servers zijn virtual machines, denk aan de servers die wij vorig jaar hebben gebruikt voor de medicijn kluizen. 
+Veel servers zijn virtual machines, denk aan de servers die wij vorig jaar hebben gebruikt voor de medicijn kluizen.
 
 **Voordelen:**
 
@@ -116,3 +116,10 @@ Veel servers zijn virtual machines, denk aan de servers die wij vorig jaar hebbe
 - Makkelijk "bijschakelen" indien nodig.
 
  **Nadeel:**  iets minder performance
+
+
+
+| Versie | Datum    | Change                                      |
+| ------ | -------- | ------------------------------------------- |
+| 1.0    | 25/11/26 | + BES.md aangemaakt<br />+ Les 1 toegevoegd |
+|        |          |                                             |
