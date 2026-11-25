@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .wk { font-size: 13px; fill: #5A5A5A; }
+      .ti { font-size: 14px; font-weight: 700; fill: #1F1F1F; }
+      .n  { font-size: 16px; font-weight: 800; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="320" rx="18" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1200" height="8" rx="4" fill="#C8102E"/>
+
+  <text x="30" y="50" font-size="24" font-weight="800" fill="#1F1F1F">Checkpoints: elke week één</text>
+  <text x="30" y="76" font-size="14" fill="#5A5A5A">Na elk checkpoint laat je het checken door de docent. Achterlopen is heel moeilijk in te halen.</text>
+
+  <!-- tijdlijn -->
+  <line x1="70" y1="160" x2="470" y2="160" stroke="#BDBDBD" stroke-width="4"/>
+  <line x1="470" y1="160" x2="640" y2="160" stroke="#BDBDBD" stroke-width="4" stroke-dasharray="8 8"/>
+  <line x1="640" y1="160" x2="1060" y2="160" stroke="#BDBDBD" stroke-width="4"/>
+  <text x="555" y="146" text-anchor="middle" font-size="13" font-style="italic" fill="#8A8A8A">kerstvakantie</text>
+
+  <!-- 1 -->
+  <text x="90" y="118" text-anchor="middle" class="wk">wk 1 · 23 nov</text>
+  <circle cx="90" cy="160" r="22" fill="#4A4A4A"/><text x="90" y="166" text-anchor="middle" class="n">1</text>
+  <text x="90" y="206" text-anchor="middle" class="ti">Basisstructuur</text>
+  <text x="90" y="224" text-anchor="middle" class="ti">&amp; ontwerp</text>
+
+  <!-- 2 -->
+  <text x="215" y="118" text-anchor="middle" class="wk">wk 2 · 30 nov</text>
+  <circle cx="215" cy="160" r="22" fill="#2B6CB0"/><text x="215" y="166" text-anchor="middle" class="n">2</text>
+  <text x="215" y="206" text-anchor="middle" class="ti">Command line</text>
+  <text x="215" y="224" text-anchor="middle" class="ti">interface</text>
+
+  <!-- 3 -->
+  <text x="340" y="118" text-anchor="middle" class="wk">wk 3 · 7 dec</text>
+  <circle cx="340" cy="160" r="22" fill="#C05621"/><text x="340" y="166" text-anchor="middle" class="n">3</text>
+  <text x="340" y="206" text-anchor="middle" class="ti">Bestands-</text>
+  <text x="340" y="224" text-anchor="middle" class="ti">systeem</text>
+
+  <!-- 4 -->
+  <text x="465" y="118" text-anchor="middle" class="wk">wk 4 · 14 dec</text>
+  <circle cx="465" cy="160" r="22" fill="#2F855A"/><text x="465" y="166" text-anchor="middle" class="n">4</text>
+  <text x="465" y="206" text-anchor="middle" class="ti">Geheugen,</text>
+  <text x="465" y="224" text-anchor="middle" class="ti">variabelen, stack</text>
+
+  <!-- 5 -->
+  <text x="645" y="118" text-anchor="middle" class="wk">wk 5 · 4 jan</text>
+  <circle cx="645" cy="160" r="22" fill="#6B46C1"/><text x="645" y="166" text-anchor="middle" class="n">5</text>
+  <text x="645" y="206" text-anchor="middle" class="ti">Processen</text>
+
+  <!-- 6 -->
+  <text x="770" y="118" text-anchor="middle" class="wk">wk 6 · 11 jan</text>
+  <circle cx="770" cy="160" r="22" fill="#C8102E"/><text x="770" y="166" text-anchor="middle" class="n">6</text>
+  <text x="770" y="206" text-anchor="middle" class="ti">Instructies</text>
+  <text x="770" y="224" text-anchor="middle" class="ti">uitvoeren</text>
+
+  <!-- 7 -->
+  <text x="895" y="118" text-anchor="middle" class="wk">wk 7 · 18 jan</text>
+  <circle cx="895" cy="160" r="22" fill="#C8102E"/><text x="895" y="166" text-anchor="middle" class="n">7</text>
+  <text x="895" y="206" text-anchor="middle" class="ti">Flow control,</text>
+  <text x="895" y="224" text-anchor="middle" class="ti">file I/O, fork</text>
+
+  <!-- demo -->
+  <text x="1075" y="118" text-anchor="middle" class="wk">wk 8 · vr 29 jan</text>
+  <rect x="1010" y="134" width="130" height="52" rx="12" fill="#C8102E"/>
+  <text x="1075" y="166" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">DEMO</text>
+  <text x="1075" y="206" text-anchor="middle" class="ti">+ code inleveren</text>
+  <text x="1075" y="224" text-anchor="middle" font-size="13" fill="#5A5A5A">aanwezig verplicht</text>
+
+  <!-- onderbalk -->
+  <rect x="30" y="256" width="1140" height="44" rx="10" fill="#F5F5F5"/>
+  <text x="50" y="284" font-size="14" fill="#333333"><tspan font-weight="700">Herkansing:</tspan> nieuwe demo in week 9 (zelf een afspraak maken), code inleveren uiterlijk vr 5 feb 2027. Maar één week ertussen, dus doe mee met de 1e kans!</text>
+</svg>

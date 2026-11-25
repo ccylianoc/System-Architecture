@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 730" width="1200" height="730" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="end" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4A4A4A"/>
+    </marker>
+    <marker id="start" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M10,0 L0,5 L10,10 z" fill="#4A4A4A"/>
+    </marker>
+    <style>
+      .t  { font-size: 16px; font-weight: 700; fill: #1F1F1F; }
+      .l  { font-size: 13px; fill: #333333; }
+      .m  { font-size: 12px; fill: #333333; font-family: Consolas, Menlo, monospace; white-space: pre; }
+      .s  { font-size: 12px; fill: #5A5A5A; font-style: italic; }
+      .n  { font-size: 13px; font-weight: 700; fill: #FFFFFF; }
+      .ar { stroke: #4A4A4A; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- achtergrond -->
+  <rect x="0" y="0" width="1200" height="730" rx="18" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1200" height="8" rx="4" fill="#C8102E"/>
+
+  <!-- titel -->
+  <text x="30" y="52" font-size="28" font-weight="800" fill="#1F1F1F">ArduinOS: wat we bouwen</text>
+  <text x="30" y="80" font-size="15" fill="#5A5A5A">Een eigen besturingssysteem voor de Arduino Uno · TINSAR01 BES · 50% van het eindcijfer</text>
+  <circle cx="912" cy="56" r="13" fill="#4A4A4A"/>
+  <text x="912" y="61" text-anchor="middle" class="n">n</text>
+  <text x="932" y="61" class="l">= checkpoint waarin je het bouwt</text>
+
+  <!-- ===== laptop ===== -->
+  <text x="30" y="128" font-size="15" font-weight="700" fill="#1F1F1F">Jouw laptop</text>
+
+  <rect x="30" y="160" width="225" height="140" rx="10" fill="#F5F5F5" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text x="46" y="191" class="t">Terminal</text>
+  <text x="46" y="216" class="l">Serial Monitor of PuTTY</text>
+  <text x="46" y="236" class="l">jij typt een commando:</text>
+  <text x="46" y="256" class="m">RUN blink</text>
+  <text x="46" y="276" class="l">en ziet de output</text>
+
+  <rect x="30" y="350" width="225" height="150" rx="10" fill="#F5F5F5" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text x="46" y="381" class="t">convert</text>
+  <text x="46" y="406" class="l">programma.txt → bytecode</text>
+  <text x="46" y="426" class="l">stuurt ERASE + STORE</text>
+  <text x="46" y="446" class="l">via de seriële poort</text>
+  <text x="46" y="476" class="m">convert blink.txt COM3</text>
+
+  <rect x="30" y="550" width="225" height="130" rx="10" fill="#F5F5F5" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text x="46" y="581" class="t">Arduino IDE</text>
+  <text x="46" y="606" class="l">compileert jouw ArduinOS</text>
+  <text x="46" y="626" class="l">upload 1× naar de flash</text>
+  <text x="46" y="646" class="s">(de bootloader schrijft hem)</text>
+
+  <!-- ===== Arduino-kader ===== -->
+  <rect x="290" y="100" width="880" height="605" rx="16" fill="#FCFCFC" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <text x="312" y="128" font-size="15" font-weight="700" fill="#C8102E">Arduino Uno (ATmega328P)  ·  ArduinOS = één sketch in de flash</text>
+
+  <!-- CLI -->
+  <rect x="315" y="160" width="270" height="140" rx="10" fill="#EAF2FB" stroke="#2B6CB0" stroke-width="2"/>
+  <circle cx="337" cy="186" r="13" fill="#2B6CB0"/><text x="337" y="191" text-anchor="middle" class="n">2</text>
+  <text x="358" y="192" class="t">Command line interface</text>
+  <text x="331" y="217" class="l">leest per letter, blokkeert niet</text>
+  <text x="331" y="241" class="m">STORE · RETRIEVE · ERASE</text>
+  <text x="331" y="260" class="m">FILES · FREESPACE · RUN</text>
+  <text x="331" y="279" class="m">LIST · SUSPEND · RESUME · KILL</text>
+
+  <!-- Bestandssysteem -->
+  <rect x="620" y="160" width="250" height="140" rx="10" fill="#FFF4E5" stroke="#C05621" stroke-width="2"/>
+  <circle cx="642" cy="186" r="13" fill="#C05621"/><text x="642" y="191" text-anchor="middle" class="n">3</text>
+  <text x="663" y="192" class="t">Bestandssysteem</text>
+  <text x="636" y="217" class="l">FAT: naam · begin · lengte</text>
+  <text x="636" y="237" class="l">max. 10 bestanden</text>
+  <text x="636" y="257" class="l">naam ≤ 12 tekens (incl. \0)</text>
+  <text x="636" y="277" class="l">STORE zoekt een vrij gat</text>
+
+  <!-- EEPROM -->
+  <rect x="905" y="160" width="240" height="140" rx="10" fill="#FFFFFF" stroke="#C05621" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="921" y="192" class="t">EEPROM · 1 KB</text>
+  <text x="921" y="217" class="l">FAT + bestandsdata</text>
+  <text x="921" y="237" class="l">blijft bewaard zonder stroom</text>
+  <text x="921" y="257" class="l">± 100.000× beschrijfbaar</text>
+  <text x="921" y="277" class="s">= onze "harde schijf"</text>
+
+  <!-- Procesbeheer -->
+  <rect x="315" y="350" width="270" height="150" rx="10" fill="#F0EAFB" stroke="#6B46C1" stroke-width="2"/>
+  <circle cx="337" cy="376" r="13" fill="#6B46C1"/><text x="337" y="381" text-anchor="middle" class="n">5</text>
+  <text x="358" y="382" class="t">Procesbeheer</text>
+  <text x="331" y="407" class="l">process table: max. 10 processen</text>
+  <text x="331" y="427" class="l">naam · ID · status</text>
+  <text x="331" y="447" class="l">PC · SP · FP · loop-adres</text>
+  <text x="331" y="475" class="m">RUNNING / PAUSED / TERMINATED</text>
+
+  <!-- Kernel -->
+  <rect x="620" y="345" width="250" height="160" rx="10" fill="#FDE8EC" stroke="#C8102E" stroke-width="3"/>
+  <circle cx="642" cy="371" r="13" fill="#C8102E"/><text x="642" y="376" text-anchor="middle" class="n">6</text>
+  <circle cx="672" cy="371" r="13" fill="#C8102E"/><text x="672" y="376" text-anchor="middle" class="n">7</text>
+  <text x="694" y="377" class="t">Kernel</text>
+  <text x="636" y="403" class="l">elke loop(): voor ieder</text>
+  <text x="636" y="423" class="l">RUNNING proces 1 instructie</text>
+  <text x="636" y="447" class="l">lees de byte op de PC</text>
+  <text x="636" y="467" class="l">→ switch…case → PC verder</text>
+  <text x="636" y="491" class="s">+ IF, LOOP, WHILE, FORK (cp 7)</text>
+
+  <!-- Geheugenbeheer -->
+  <rect x="905" y="350" width="240" height="150" rx="10" fill="#E9F7EF" stroke="#2F855A" stroke-width="2"/>
+  <circle cx="927" cy="376" r="13" fill="#2F855A"/><text x="927" y="381" text-anchor="middle" class="n">4</text>
+  <text x="948" y="382" class="t">Geheugenbeheer</text>
+  <text x="921" y="407" class="l">memory table: max. 25 vars</text>
+  <text x="921" y="427" class="l">naam · type · adres ·</text>
+  <text x="921" y="447" class="l">grootte · proces-ID</text>
+  <text x="921" y="475" class="l">proces stopt → vars weg</text>
+
+  <!-- Datatypes -->
+  <rect x="315" y="550" width="270" height="130" rx="10" fill="#F5F5F5" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text x="331" y="581" class="t">Datatypes</text>
+  <text x="331" y="606" class="m">CHAR   1 byte</text>
+  <text x="331" y="626" class="m">INT    2 bytes (big-endian)</text>
+  <text x="331" y="646" class="m">FLOAT  4 bytes (IEEE 754)</text>
+  <text x="331" y="666" class="m">STRING tekst + \0</text>
+
+  <!-- Stack -->
+  <rect x="620" y="550" width="250" height="130" rx="10" fill="#E6F6F7" stroke="#2C7A7B" stroke-width="2"/>
+  <circle cx="642" cy="576" r="13" fill="#2C7A7B"/><text x="642" y="581" text-anchor="middle" class="n">4</text>
+  <text x="663" y="582" class="t">Stack (per proces)</text>
+  <text x="636" y="607" class="l">≥ 32 bytes, eigen SP</text>
+  <text x="636" y="627" class="l">push / pop van alle 4 de types</text>
+  <text x="636" y="647" class="l">het type ligt altijd bovenop</text>
+  <text x="636" y="667" class="s">rekenen gebeurt hier</text>
+
+  <!-- Werkgeheugen -->
+  <rect x="905" y="550" width="240" height="130" rx="10" fill="#FFFFFF" stroke="#2F855A" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="921" y="582" class="t">Werkgeheugen</text>
+  <text x="921" y="607" class="l">byte-array van 256 bytes</text>
+  <text x="921" y="627" class="l">in de SRAM (2 KB totaal)</text>
+  <text x="921" y="647" class="l">hier staan de variabelen</text>
+
+  <!-- ===== pijlen ===== -->
+  <!-- laptop -> Arduino -->
+  <line x1="255" y1="230" x2="313" y2="230" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <text x="280" y="214" text-anchor="middle" font-size="11" fill="#5A5A5A">USB</text>
+  <path d="M255,425 H274 V262 H313" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-end="url(#end)"/>
+  <line x1="255" y1="615" x2="288" y2="615" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-end="url(#end)"/>
+
+  <!-- intern -->
+  <line x1="587" y1="230" x2="618" y2="230" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <line x1="872" y1="230" x2="903" y2="230" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <line x1="450" y1="302" x2="450" y2="348" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-end="url(#end)"/>
+  <text x="460" y="330" font-size="12" fill="#5A5A5A">RUN · KILL · …</text>
+  <line x1="587" y1="425" x2="618" y2="425" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <line x1="745" y1="343" x2="745" y2="302" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-end="url(#end)"/>
+  <text x="755" y="330" font-size="12" fill="#5A5A5A">leest bytecode</text>
+  <line x1="872" y1="425" x2="903" y2="425" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <line x1="745" y1="507" x2="745" y2="548" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <text x="755" y="533" font-size="12" fill="#5A5A5A">push / pop</text>
+  <line x1="1025" y1="502" x2="1025" y2="548" class="ar" fill="none" stroke="#4A4A4A" stroke-width="2" marker-start="url(#start)" marker-end="url(#end)"/>
+  <text x="1035" y="530" font-size="12" fill="#5A5A5A">GET / SET</text>
+</svg>
